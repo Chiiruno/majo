@@ -1,0 +1,1 @@
+Monolithic WASM web client

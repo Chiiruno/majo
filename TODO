@@ -1,0 +1,10 @@
+General structure
+Separate process for functionality if requires non-project process (IE: postgres, ffmpeg)
+Mainly server, p2p fallback/where appropriate
+Application and browser client
+Many programs working together for application server/client
+WASM web client is monolithic?
+Consider C or Rust for high throughput sub-applications (maybe just make it straight from C for shits and giggles?)
+or just V
+Git-like system for all modifications by client to server (easy reverse, go back to $REVISION$)
+counter/colored text options for board owner to set instead of static pyu/red/blue
