@@ -1,7 +1,13 @@
 General structure
-Mainly server, p2p fallback/where appropriate
+Mainly server, p2p fallback(?) where appropriate
 Application and browser client
 Git-like system for all modifications by client to server (easy reverse, go back to $REVISION$)
 Counter/colored text options for board owner to set instead of static pyu/red/blue
 Module background/foreground paired processes with UNIX sockets
 Possibly multi-server synced/shared pairs (cache server 1, cache server 2, etc)
+DB sharding for horizontal scaling
+Geo-specific pairs (>implying it'll ever get that big)
+Federated network model
+Client liveposts on server 4, server 4 sends READ request to server 2 for connected clients to connect to server 4 for live text distribution
+or stream from server to server
+https://en.wikipedia.org/wiki/ActivityPub
